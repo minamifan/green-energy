@@ -1,0 +1,157 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #33333337;
+  }
+  .bodyText{
+    line-height: 1rem;
+    padding: 1rem 0;
+  }
+  .whole{
+    max-width: 60rem;
+    margin: auto;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    padding: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  header {
+
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #104307;
+    text-align: center;
+  }
+  header image{
+    width: 20%;
+  }
+ h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    margin: 0;
+    color: #104307;
+    padding: 1rem;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .content {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+  .content img{
+    width: 25%;
+    float: left;
+    padding-right: 2rem;
+    padding-top: 1rem;
+  }
+  
+  h2 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+  }
+  footer{
+    clear: left;
+  }
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+    width:40rem;
+    height: 2rem;
+  }
+  .buttons button{
+    margin-right: 1rem;
+   background-color: #166009;
+   color: #ffffff;
+   border-radius: 10px;
+  }
+  #active-button{
+    margin-right: 1rem;
+   background-color: #fd6113;
+   color: #ffffff;
+   border-radius: 10px;
+  }
+ 
+footer ul{
+  display: flex;
+  justify-content:space-evenly;
+  font-size: 2rem;
+  list-style: none;
+}
+    @media screen and (max-width:30rem) {
+      body{
+        font-size: 0.75rem;
+        
+      }
+      .bodyText{
+        line-height: 0.75rem;
+        padding: 1rem 0;
+      }
+      .content img{
+        padding: 2rem 0;
+      }
+      .whole{
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+      
+      header h1 {
+      
+        font-size: 1.7rem;
+        margin: 0;
+      }
+     nav ul{
+      display: flex;
+      flex-direction: column;
+     
+     }
+
+     li{
+      border-bottom: 1px solid #cccccc55;
+   
+   
+   }
+   .content img{
+    width: 20rem;
+     }
+     footer ul{
+      display: flex;
+      justify-content:flex-start;
+      font-size: 2rem;
+      
+    }
+    footer li{
+      margin-right: 2rem;
+      list-style: none;
+    }
+  }
